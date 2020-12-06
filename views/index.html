@@ -1,0 +1,69 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A cool thing made with Glitch">
+
+    <title>Welcome to Sodoku Solver!</title>
+
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/client.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>
+        Sodoku Solver
+      </h1>
+    </header>
+
+    <main>
+      <p class="bold">A tool for solving that pesky sodoku game that's troubling you.</p>
+      
+      <p>Enter your sodoku here...</p>
+      
+      <form>
+        <table>
+          <tr>
+            <td><input type="text" name="input[0]"/></td>
+            <td><input type="text" name="input[1]"/></td>
+            <td><input type="text" name="input[2]"/></td>
+            <td><input type="text" name="input[3]"/></td>
+          </tr>
+          <tr>
+            <td><input type="text" name="input[0]"/></td>
+            <td><input type="text" name="input[1]"/></td>
+            <td><input type="text" name="input[2]"/></td>
+            <td><input type="text" name="input[3]"/></td>
+          </tr>
+          <tr>
+            <td><input type="text" name="input[0]"/></td>
+            <td><input type="text" name="input[1]"/></td>
+            <td><input type="text" name="input[2]"/></td>
+            <td><input type="text" name="input[3]"/></td>
+          </tr>
+          <tr>
+            <td><input type="text" name="input[0]"/></td>
+            <td><input type="text" name="input[1]"/></td>
+            <td><input type="text" name="input[2]"/></td>
+            <td><input type="text" name="input[3]"/></td>
+          </tr>
+        </table>
+        <button type="submit" id="submit-sodoku">Solve it!</button>
+      </form>
+      
+    </main>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js" defer></script>
+  </body>
+</html>
